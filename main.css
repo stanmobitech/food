@@ -60,7 +60,7 @@ header a:hover{
 /* Landing*/
 #landing{
     min-height: 480px;
-    background: url(kfa.png) no-repeat 0px -180px;
+    background: url(kfa.png) no-repeat;
     background-size: cover;
     text-align: center;
     color: #ffffff;
@@ -93,7 +93,7 @@ footer{
     text-align: center;
 }
 
-/*Signup*/
+/*Signin*/
 .fcontainer 
 {
     position: absolute;
@@ -105,7 +105,11 @@ footer{
 	box-shadow:	
 		0pt 2px 5px rgba(105, 108, 109,  0.7),	
 		0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
-	border-radius: 5px;
+    border-radius: 5px;
+    min-height: 60%;
+    margin-left: 40%;
+    margin-right: 60%;
+    background-color:#8a20007d;
 }
 #signform{
     min-height: 480px;
@@ -114,12 +118,6 @@ footer{
     text-align: center;
     color: #ffffff;
     margin-top: 0%;
-}
-.fcontainer{
-    min-height: 60%;
-    margin-left: 40%;
-    margin-right: 60%;
-    background-color:#8a20007d;
 }
 .tbox{
     width: 90%;
@@ -164,6 +162,43 @@ footer{
     border-radius: 4px;
 }
 
+/*Signup*/
+
+#signupform{
+    min-height: 480px;
+    background: url(dango.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0%;
+
+.scontainer{
+    position: absolute;
+    top: 20%;
+    width: 20%;	
+    padding: 5px 8px 50px 100px;
+    background: rgb(247, 247, 247);
+    border: 1px solid rgba(147, 184, 189,0.8);
+    box-shadow:	
+        0pt 2px 5px rgba(105, 108, 109,  0.7),	
+        0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    border-radius: 5px;
+    min-height: 60%;
+    margin-left: 40%;
+    margin-right: 60%;
+    background-color:#8a20007d;
+}
+.lbtn{
+    border: 1px solid white;
+    margin-left: 40%;
+    margin-right: 60%;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    float: center;
+ }
+ 
 
 
 
