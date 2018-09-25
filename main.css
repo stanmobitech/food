@@ -66,13 +66,14 @@ header a:hover{
     background: url(kfa.png) no-repeat;
     background-size: cover;
     text-align: center;
-    color: #ffffff;
+    color: yellow;
     padding-top: -5px;
 }
 .btn{
    border: 1px solid white;
    padding: 2px 20px;
    color: white;
+   background-color: #ab0100;
    text-decoration: none;
    font-size: 13px;
    text-transform: uppercase;
